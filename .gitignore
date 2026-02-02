@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+tests/results/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+.tmp/
+*.tmp
+*.bak
+
+# LangSmith / Observability
+.langsmith/
+
+# Memory & Persistence
+test-*/
+*-test/
+**/lancedb/
+**/chroma/
+**/chromadb/
+**/*.db
+**/*.sqlite
+agents/*/memory/lancedb/
+# Optional: if you want to ignore all memory logs but keep the structure
+# agents/*/memory/*.md
+
+# Execution artifacts
+execution/
+hello.txt
+test_results.txt
+
+# Root Directory Pollution (Safe Guards)
+LOG.md
+NOW.md
+person.json
+activity_log.json
+status.json
+test_file.txt
+answers.json
